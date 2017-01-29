@@ -1,0 +1,8 @@
+Used read.table command to read these files: activity_labels, features, subject_test, x_test, y_test, subject_train
+colnames(x_train) <- features [, 2] ### 2nd column of features was placed on x_train
+colnames(y_train) <- "activityId" ### activityId was placed on y_train column
+colnames(subject_train) <- "subjectId" ### subjectId was placed on subject_train column
+
+colnames(x_test) <- features[, 2] ### 2nd column of features was placed on x_test
+colnames(y_test) <- "activityId" ### activityId was placed on y_test column
+colnames(subject_test) <- "subjectId" ### subjectId was placed on subject_test column
